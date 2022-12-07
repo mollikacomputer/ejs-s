@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejs</title>
+</head>
+<body>
+    <header>
+        <ul><a href="/">Home</a></ul>
+        <ul><a href="/contact">Contact</a></ul>
+    </header>
+    <main>
+        <form action="/" method="post">
+            <input type="text" placeholder="programming language" name="pLanguage" >
+            <button type="submit" > Save</button>
+        </form>
+
+        <ul>
+            <li> <%= pLName  %> </li>
+        </ul>
+
+
+
+    </main>
+    <footer> All rights  reserved by &copy; Ranjit</footer>
+</body>
+</html>
